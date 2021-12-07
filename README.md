@@ -68,11 +68,6 @@ The functionality should be the following
 3. Make individiual commits for each block you create. The last commit marks the end.
 4. Send us a link to your repo.
 
-5. Hacer un repositorio nuevo utilizando este como base (sin hacer un fork).
-6. Hacer al menos un primer commit con el código original, para ver la hora de inicio.
-7. Hacer commits individuales por cada bloque que vayas haciendo. El último commit marca el final.
-8. Envíanos el link a tu repositorio
-
 ## What we value?
 
 - Simplicity of the solution
