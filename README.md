@@ -67,6 +67,8 @@ The functionality should be the following
 2. Make at least 1 first commit with the original code, to see the init hour.
 3. Make individiual commits for each block you create. The last commit marks the end.
 4. Send us a link to your repo.
+5. Deploy your repo to vercel.
+6. Send us a link to the deployed project.
 
 ## What we value?
 
