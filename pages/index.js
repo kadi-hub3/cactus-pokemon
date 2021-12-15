@@ -5,13 +5,11 @@ import PokemonsList from '../components/PokemonsList'
 
 const Home = () => {
   return (
-    <>
+    <div className=''>
     <Navbar/>
-    <section className="w-screen h-screen bg-gray-800 grid grid-rows-3 lg:grid-cols-3">
       <PokemonsList/>
-    </section>
     <Footer/>
-    </>
+    </div>
   )
 }
 
