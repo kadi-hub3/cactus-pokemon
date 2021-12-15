@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
     <Navbar/>
-    <section className="w-screen bg-gray-800 grid grid-rows-2 lg:grid-cols-2">
+    <section className="w-screen h-screen bg-gray-800 grid grid-rows-3 lg:grid-cols-3">
       <PokemonsList/>
     </section>
     <Footer/>
