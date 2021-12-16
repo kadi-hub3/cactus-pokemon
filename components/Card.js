@@ -2,11 +2,13 @@ const Card = ({name, img, height, weight, weaknesses, type}) => {
     return (
         <div className="w-64 md:w-80 lg:h-full border border-white rounded-md">
             <div className='from-blue-400 to-blue-600 bg-gradient-to-r w-full h-full flex flex-col items-center'>
+                <div className='relative h-40 w-40'>
                 <img
-                    className="h-32 w-32"
+                    className="absolute top-20 "
                     alt={name}
                     src={img}
                 />
+                </div>
                 <div className='lg:h-10/12 w-10/12 md:leading-7 px-2 bg-white'>
                     <div className='grid place-items-center py-6'>
                         <h2 className='font-black text-lg tracking-wide py-4'>{name}</h2>
