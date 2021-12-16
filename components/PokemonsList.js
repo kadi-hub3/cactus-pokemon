@@ -43,8 +43,8 @@ const PokemonsList = () => {
                         )
                     })}
         </div>
-        <div className="flex flex-col justify-center items-center md:flex-row md:items-start h-full w-full gap-20 md:gap-2 lg:gap-1 md:row-span-3 grid-cols-1 md:grid-cols-2 lg:col-span-2">
-            <div className="h-96 grid md:mx-10 lg:cols-span-1">
+        <div className="flex flex-col justify-center items-center md:flex-row md:items-start h-full w-full gap-20 md:gap-2 md:row-span-3 grid-cols-1 md:grid-cols-2 lg:col-span-2">
+            <div className="h-96 mb-10 grid md:mx-10 lg:mx-0 lg:ml-4 lg:cols-span-1">
                 {showCard ? (
                     <>
                         <Card  open={showCard}
