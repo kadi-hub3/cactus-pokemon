@@ -1,6 +1,6 @@
 const Card = ({name, img, height, weight, weaknesses, type}) => {
     return (
-        <div className="w-64 md:w-80 lg:h-full border border-white rounded-md">
+        <div className="w-64 h-full md:w-80 border border-white rounded-md">
             <div className='from-blue-400 to-blue-600 bg-gradient-to-r w-full h-full flex flex-col items-center'>
                 <div className='relative h-40 w-40'>
                 <img

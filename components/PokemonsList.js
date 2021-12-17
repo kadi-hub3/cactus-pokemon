@@ -58,7 +58,7 @@ const PokemonsList = () => {
                                 weight={selectedPokemon.weight} 
                                 weaknesses={selectedPokemon.weaknesses}
                                 />
-                        <div className='h-10 my-4 mb-10 w-full flex justify-around lg:justify-between'> 
+                        <div className=' my-4 mb-10 w-full flex justify-around lg:justify-between'> 
                             {selectedPokemon.next_evolution && selectedPokemon.next_evolution.map(evolution=>{
                                     return (
                                         <p key={evolution.name} className='flex flex-col tracking-wide text-gray-200'>Next Evolution<button className='font-bold hover:text-blue-300' onClick={()=>{setShowEvolution(!showEvolution); fetchPokemon(parseInt(evolution.num));}}>{evolution.name}</button></p>
