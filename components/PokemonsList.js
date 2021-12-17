@@ -44,7 +44,7 @@ const PokemonsList = () => {
                     })}
         </div>
         <div className="flex flex-col justify-center items-center md:flex-row md:items-start h-full w-full gap-20 md:gap-2 md:row-span-3 grid-cols-1 md:grid-cols-2 lg:col-span-2">
-            <div className="h-96 mb-10 grid md:mx-10 lg:mx-0 lg:ml-4 lg:cols-span-1">
+            <div className="h-96 mb-20 grid md:mx-10 lg:mx-0 lg:ml-4 lg:cols-span-1">
                 {showCard ? (
                     <>
                         <Card  open={showCard}
@@ -58,7 +58,7 @@ const PokemonsList = () => {
                                 weight={selectedPokemon.weight} 
                                 weaknesses={selectedPokemon.weaknesses}
                                 />
-                        <div className='h-10 my-4 w-full flex justify-around lg:justify-between'> 
+                        <div className='h-10 my-4 mb-10 w-full flex justify-around lg:justify-between'> 
                             {selectedPokemon.next_evolution && selectedPokemon.next_evolution.map(evolution=>{
                                     return (
                                         <p key={evolution.name} className='flex flex-col tracking-wide text-gray-200'>Next Evolution<button className='font-bold hover:text-blue-300' onClick={()=>{setShowEvolution(!showEvolution); fetchPokemon(parseInt(evolution.num));}}>{evolution.name}</button></p>
